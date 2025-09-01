@@ -310,7 +310,7 @@ form input, select {
     cursor: pointer;
 }
 form label {
-    padding: 0 var(--espaço-pp);
+    padding:var(--espaço-pp);
 }
 form textarea {
     padding: var(--espaço-m);
