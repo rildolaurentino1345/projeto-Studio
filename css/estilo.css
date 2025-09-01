@@ -251,6 +251,9 @@ div.portfolio-a #item {
     border-radius: 8px;
     padding: var(--espaço-m);    
 }
+div.botao {
+    padding: var(--espaço-p) 0;
+}
 /*Sobre*/
 
 ul.lista-botao {
@@ -313,7 +316,7 @@ form textarea {
     padding: var(--espaço-m);
     border-radius: var(--espaço-pp);
 }
-
+/*footer*/
 footer {
     color: var(--texto-principal);
     background-color: var(--cor-destaque);
