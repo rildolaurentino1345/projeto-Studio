@@ -24,7 +24,11 @@
         display: none;
     }/*fim header*/
    
-
+    /*Portfolio*/
+    div.estaticas {
+        justify-content: space-between;
+        padding: var(--espaço-g);
+    }
 
 
 
