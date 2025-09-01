@@ -1,0 +1,31 @@
+@charset "UTF-8";
+@media screen and (min-width:769px) {
+
+
+    /* MENU FICA HORIZONTAL */
+    #menu {
+        position: static;
+        display: flex;
+        height: auto;
+        visibility: visible;
+        overflow: visible;
+        gap: .5rem;
+        background: none;
+    }
+
+    /* LINKS DESKTOP */
+    #menu a {
+        border: none;
+        padding: .5rem;
+    }
+
+    /* ESCONDER BOTÃO NO DESKTOP */
+    #btn-mobile {
+        display: none;
+    }/*fim header*/
+   
+
+
+
+
+}
