@@ -13,15 +13,17 @@
     --espaço-p:10px;
     --espaço-m:20px;
     --espaço-g:30px;
-    --cor-principal:#3A4152;
-    --cor-segundaria:#2C303A;
+    --cor-principal:#1E293B;
+    --cor-segundaria:#334155;
     --cor-tercearia:#9CA3AF;
-    --cor-hover-interação:#34D399;
-    --cor-destaque:#10B981;
-    --texto-principal:#FAFAFA;
+    --cor-hover-interação:#2563EB;
+    --cor-destaque:#3B82F6;
+    --texto-principal:#F8FAFC;
+    --texto-secundario: #94A3B8;
 }
 .card {
-    background-color:var(--cor-tercearia);
+    background-color:var(--cor-segundaria);
+    color: var(--texto-principal);
     margin: var(--espaço-g) 0;
     padding: var(--espaço-g) 0;
     border-radius: var(--espaço-p);
@@ -34,6 +36,7 @@
 .btn {
     padding: var(--espaço-p) var(--espaço-m);
     background-color: var(--cor-principal);
+    color: var(--texto-principal);
     border-radius: var(--borda-botao);
     cursor: pointer;
     transition: 0.3s ease-in-out;
@@ -202,7 +205,7 @@ div.agencia p {
     color: white;
     display: inline-block;
     padding:var(--espaço-p) var(--espaço-m);
-    background-color: #3A4152;
+    background-color: var(--cor-principal);
     border-radius: 5px;    
 }
 div.agencia-titulo {
@@ -265,14 +268,14 @@ ul.lista-botao li {
     margin: 5px;
     color: var(--texto-principal);
     border-radius: 10px;
-    background-color: #3A4152;
+    background-color: var(--cor-principal);
 }
 ul.recursos {
     list-style: none;
     padding:var(--espaço-p);
 }
 ul.recursos li {
-    background-color: var(--cor-segundaria);
+    background-color: var(--cor-destaque);
     color: var(--texto-principal);
     display: inline-flex;
     margin: 5px;
